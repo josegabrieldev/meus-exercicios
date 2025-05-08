@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercício 002</title>
+</head>
+<body>
+        <!--Cabeçalho-->
+    <header>
+        <h1>Revisando HTML</h1>
+        <nav>
+            <a href="#">Menu</a>
+            <a href="#">Email</a>
+            <a href="#">Mais</a>
+            <a href="#">Sobre</a>
+        </nav>
+    </header>
+    <!--Conteúdo Principal-->
+    <main>
+        <article>
+            <h2>Lista não Ordenada</h2>
+            <section>
+                <ul>
+                    <li>HTML</li>
+                    <li>CSS</li>
+                    <li>JavaScript</li>
+                </ul>
+            </section>
+        </article>
+
+        <article>
+            <h2>Lista Ordenada</h2>
+            <ol>
+                <li>Instalar VS Code</li>
+                <li>Estudar HTML</li>
+                <li>Praticar CSS</li>
+            </ol>
+        </article>
+
+        <aside>
+
+            <h2>Links</h2>
+
+            <section>
+                <h3>Link Interno</h3>
+                <a href="#sobre">Ir para a seção sobre</a>
+            </section>
+
+            <section>
+                <h3>Link Externo</h3>
+                <a href="https://www.google.com" target="_blank">Abrir o Google</a>
+            </section>
+
+        </aside>
+
+        <article>
+            <h2>Imagem</h2>
+            <img src="espaco.jpeg" alt="Buraco negro" width="300" height="200">
+        </article>
+    </main>
+
+    <aside>
+        <fieldset>
+            <legend>Dados Necessarios</legend>
+            <div>
+                <label for="inome">Nome:</label>
+                <input type="text" name="nome" id="inome">
+            </div>
+            <div>
+                <form action="#" method="post" autocomplete="on">
+                    <label for="iemail">Email:</label>
+                    <input type="email" name="email" id="iemail">
+                </form>
+            </div>
+            <div>
+                <label for="imensagem">Mensagem:</label> <br>
+                <textarea name="mensagem" id="imensagem"></textarea>
+            </div>
+        </fieldset>
+        <div>
+            <input type="submit" value="Enviar">
+            <input type="reset" value="Limpar">
+        </div>
+    </aside>
+</body>
+</html>
