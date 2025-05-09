@@ -19,28 +19,64 @@
     </header>
         <!--Conteúdo Principal-->
     <main>
-        <section id="sec1">
+        <section>
             <h2>Primeira Seção</h2>
             <article>
                 <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Accusamus placeat aliquam eveniet a aspernatur, consequuntur, eius ea fugiat quas incidunt culpa id modi debitis illum exercitationem cumque, sunt dolore et. Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum et labore iste doloribus cupiditate possimus dignissimos repudiandae tempore facere sed ratione minus est architecto atque, sequi maxime nam sunt veniam. Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus quasi et suscipit rerum distinctio nobis quam voluptatum nemo blanditiis eaque. Ratione id sapiente fugiat illum recusandae sint, illo doloribus aperiam? Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nostrum dolor pariatur ex, quae mollitia dolore delectus iure libero nulla id impedit ab repudiandae officia odio incidunt sint dolorem quibusdam at.</p>
             </article>
         </section>
         
-        <section id="sec2">
+        <section>
             <h2>Segunda Seção</h2>
             <article>
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis temporibus explicabo officia perferendis voluptatibus animi qui corrupti a tenetur molestiae. Nobis, qui eius veritatis dignissimos hic esse recusandae beatae aperiam? Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eaque, laudantium. Error quae eveniet incidunt aut vel explicabo nostrum voluptas tempora dolorum iste, ea deserunt quas temporibus. Dolorum, rem laborum! Nesciunt? Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam cum cupiditate distinctio officiis odit iusto perspiciatis blanditiis deleniti temporibus, voluptate repellendus quis porro esse consequuntur rem laudantium magnam suscipit sed. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nostrum sint voluptas rem cumque aut corrupti? Cum, molestiae optio pariatur doloribus unde maxime tempora vitae praesentium earum consequatur esse hic dicta?</p>
             </article>
         </section>
     </main>
-        <!--Barra Lateral-->
+        <!--Conteúdo periferico-->
     <aside>
         <h3>Informações adicionais</h3>
         <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Consequatur nam natus quam in neque maxime at vero, a obcaecati incidunt quia cupiditate eaque nulla quasi eos vitae fugiat debitis facilis! Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quae iusto libero, repudiandae consequatur id animi architecto! Distinctio atque culpa id harum blanditiis, pariatur, quas possimus dignissimos placeat earum incidunt assumenda.</p>
     </aside>
+
+    <div id="form">
+        <form action="#" method="post" autocomplete="on">
+            <fieldset>
+                <legend>Dados Pessoais</legend>
+                <div>
+                    <label for="inome">Nome: </label>
+                    <input type="text" name="nome" id="inome" required minlength="8" maxlength="32" autocomplete="name" placeholder="Nome Completo">
+                </div>
+                <div>
+                    <label for="iemail">Email: </label>
+                    <input type="email" name="email" id="iemail" required minlength="15" maxlength="30" autocomplete="email" placeholder="Digite seu Email">
+                </div>
+                <div>
+                    <label for="isenha">Senha: </label>
+                    <input type="password" name="senha" id="isenha" required minlength="8" maxlength="15" autocomplete="current-password" placeholder="Digite sua Senha">
+                </div>
+
+                <div>
+                    <label for="icelular">Celular: </label>
+                    <input type="number" name="celular" id="icelular" required minlength="9" maxlength="13" placeholder="xx (xx)xxxxx-xxxx">
+                </div>
+            </fieldset>
+
+            <div>
+                <label for="imensagem">Mensagem: </label> <br>
+                <textarea name="mensagem" id="imensagem" maxlength="200"></textarea>
+            </div>
+
+            <div>
+                <input type="submit" value="Enviar">
+                <input type="reset" value="Limpar">
+            </div>
+        </form>
+    </div>
+
         <!--Rodapé-->
     <footer>
-        <p>Todos os direitos reservados a José Gabriel - 2025</p>
+        <p>Todos os direitos reservados a <a href="#">José Gabriel</a> - 2025</p>
     </footer>
 
 </body>
